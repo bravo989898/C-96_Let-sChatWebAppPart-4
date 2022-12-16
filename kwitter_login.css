@@ -1,0 +1,81 @@
+body {
+    background-image: url("bg.png");
+    background-attachment: fixed;
+    background-size: 130% 100%;
+    background-repeat: no-repeat;
+}
+.header
+{
+	color: maroon;
+    font-family: 'Yeon Sung';
+    font-size: 45px;
+    letter-spacing: 10px;
+    display: inline-block;
+    margin-left: -800px;
+    margin-top: 60px;
+    font-weight: bolder;
+}
+#icon_1
+{
+	width: 80px;
+}
+.login_div
+{
+	background-image: linear-gradient(to top, #F6EA41, #F048C6);
+    width: 400px;
+    float: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 450px;
+    margin-top: 140px;
+    position: absolute;
+    box-shadow: 6px 10px #706e6ec7;
+}
+.logo
+{
+	width: 80px;
+    margin-top: 30px;
+}
+.underline
+{
+    position:relative;
+        margin-right: 80px;
+  width: 200px;
+  height: 5px;
+  border: 0px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #9c27b0 9.6%, #00bcd4 93.6%);
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: white;
+    font-family: cursive;
+}
+#user_name{
+    width: 300px;
+}
+#login_button
+{
+    background-color: cornflowerblue;
+        border: 0px;
+        border-radius: 20px;
+        padding: 7px ;
+        color: white;
+        font-weight: 600;
+        width: 200px;
+}
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .input_icon{
+    display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  }
